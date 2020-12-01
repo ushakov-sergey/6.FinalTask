@@ -1,0 +1,157 @@
+[
+  {
+    "saleId": "1",
+    "sellerId": "1",
+    "productId": "1",
+    "quantity": "1",
+    "date":
+    {
+      "year":2020,
+      "month":11,
+      "day":29
+    }
+  },{
+    "saleId": "2",
+    "sellerId": "1",
+    "productId": "1",
+    "quantity": "1",
+    "date":
+    {
+      "year":2020,
+      "month":11,
+      "day":29
+    }
+  },{
+    "saleId": "3",
+    "sellerId": "1",
+    "productId": "1",
+    "quantity": "1",
+    "date":
+    {
+      "year":2020,
+      "month":11,
+      "day":29
+    }
+  },{
+    "saleId": "4",
+    "sellerId": "1",
+    "productId": "1",
+    "quantity": "1",
+    "date":
+    {
+      "year":2020,
+      "month":11,
+      "day":29
+    }
+  },{
+    "saleId": "5",
+    "sellerId": "1",
+    "productId": "1",
+    "quantity": "1",
+    "date":
+    {
+      "year":2020,
+      "month":11,
+      "day":29
+    }
+  },{
+    "saleId": "6",
+    "sellerId": "1",
+    "productId": "1",
+    "quantity": "1",
+    "date":
+    {
+      "year":2020,
+      "month":11,
+      "day":25
+    }
+  },{
+    "saleId": "7",
+    "sellerId": "1",
+    "productId": "1",
+    "quantity": "1",
+    "date":
+    {
+      "year":2020,
+      "month":11,
+      "day":26
+    }
+  },{
+    "saleId": "8",
+    "sellerId": "1",
+    "productId": "1",
+    "quantity": "1",
+    "date":
+    {
+      "year":2020,
+      "month":11,
+      "day":27
+    }
+  },{
+    "saleId": "9",
+    "sellerId": "1",
+    "productId": "1",
+    "quantity": "1",
+    "date":
+    {
+      "year":2020,
+      "month":11,
+      "day":28
+    }
+  },{
+    "saleId": "10",
+    "sellerId": "3",
+    "productId": "1",
+    "quantity": "1",
+    "date":
+    {
+      "year":2020,
+      "month":11,
+      "day":29
+    }
+  },{
+    "saleId": "11",
+    "sellerId": "2",
+    "productId": "1",
+    "quantity": "1",
+    "date":
+    {
+      "year":2020,
+      "month":11,
+      "day":29
+    }
+  },{
+    "saleId": "12",
+    "sellerId": "5",
+    "productId": "1",
+    "quantity": "20",
+    "date":
+    {
+      "year":2020,
+      "month":11,
+      "day":30
+    }
+  },{
+    "saleId": "13",
+    "sellerId": "7",
+    "productId": "1",
+    "quantity": "15",
+    "date":
+    {
+      "year":2020,
+      "month":11,
+      "day":29
+    }
+  },{
+    "saleId": "14",
+    "sellerId": "6",
+    "productId": "1",
+    "quantity": "10",
+    "date":
+    {
+      "year":2020,
+      "month":11,
+      "day":29
+    }
+  }
+]

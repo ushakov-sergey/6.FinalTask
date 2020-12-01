@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "firstName": "Alexey",
+    "secondName": "Alexeev"
+  },{
+    "id": "2",
+    "firstName": "Andrey",
+    "secondName": "Andreev"
+  },{
+    "id": "3",
+    "firstName": "Dmitrii",
+    "secondName": "Dmitriev"
+  },{
+    "id": "4",
+    "firstName": "Sergey",
+    "secondName": "Sergeev"
+  },{
+    "id": "5",
+    "firstName": "Zahar",
+    "secondName": "Zaharov"
+  },{
+    "id": "6",
+    "firstName": "Ilya",
+    "secondName": "Egorov"
+  },{
+    "id": "7",
+    "firstName": "Ivan",
+    "secondName": "Ivanov"
+  },{
+    "id": "8",
+    "firstName": "Alex",
+    "secondName": "Alex"
+  }
+]
