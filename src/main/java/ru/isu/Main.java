@@ -23,23 +23,17 @@ public class Main {
             List<Seller> sellers = jsonFileReader.getSellerList();
 
 
-            Map<Integer, Integer> sellerWithSale = new HashMap<>();
-            Map<LocalDate, Integer> saleDateWithSale = new HashMap<>();
+
 
             //Заполняем отображения
-            sales.forEach(sale -> {
-                try {
-                    sellerWithSale.put(sale.getSellerId(), sellerWithSale.get(sale.getSellerId()) + sale.getSoldProductQuantity());
-                } catch (NullPointerException e) {
-                    sellerWithSale.put(sale.getSellerId(), sale.getSoldProductQuantity());
-                }
+            Map<Integer, Integer> sellerWithSale = sales.stream()
+                    .collect(Collectors.groupingBy(Sale::getSellerId,
+                            Collectors.summingInt(Sale::getSoldProductQuantity)));
+            Map<LocalDate, Integer> saleDateWithSale = sales.stream()
+                    .collect(Collectors.groupingBy(Sale::getDate,
+                            Collectors.summingInt(Sale::getSoldProductQuantity)));
 
-                try {
-                    saleDateWithSale.put(sale.getDate(), saleDateWithSale.get(sale.getDate()) + sale.getSoldProductQuantity());
-                } catch (NullPointerException e) {
-                    saleDateWithSale.put(sale.getDate(), sale.getSoldProductQuantity());
-                }
-            });
+
 
             XmlFileWriter writer = XmlFileWriter.INSTANCE;
 
